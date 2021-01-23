@@ -17,6 +17,9 @@ class SlingShot{
     fly(){
         this.sling.bodyA = null;
     }
+    attach(a){
+        this.sling.bodyA=a;
+    }
 
     display(){
         image(this.sling1,200,20);
